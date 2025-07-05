@@ -19,5 +19,8 @@ My idea is to proceed in the following way:
 In my bachelor's thesis i've designed a Colpitt's oscillator with a BJT but unfortunately it's good for higher frequencies otherwise will need huge capacitors and inductor.
 I like simple things so i choose NE555 IC used in astable configuration creating a signal at 1kHz.
 At the output there is an LC filter which enable to pass the 1kHz signal (at the end are needed a big capacitor and a big inductor as well but in a much more simpler way).
-Below the simulated circuit on LTSpice with.
+Below the simulated circuit on LTSpice.
 ![Alt text](oscillatorCircuit.png "Oscillator circuit")
+
+Below the output signal which is more like a triangular wave than a sinusoid this because the -40dB/dec of the filter after the central frequency is not enough to filter out the third harmonic (for an ideal square signal the second harmonic is zero).
+![Alt text](outSignalOscillator.png "Output oscilator signal")
