@@ -20,4 +20,4 @@ In my bachelor's thesis i've designed a Colpitt's oscillator with a BJT but unfo
 Since simple things are attractive i choose NE555 IC used in astable configuration creating a signal at 1kHz.
 At the output there is an LC filter which enable to pass the 1kHz signal (at the end are needed a big capacitor and a big inductor as well but in a much more simpler way).
 Below the simulated circuit on LTSpice.
-![Alt text](.\.oscillatorCircuit.png "Oscillator circuit")
+![Alt text](oscillatorCircuit.png "Oscillator circuit")
