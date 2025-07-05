@@ -15,7 +15,7 @@ My idea is to proceed in the following way:
 2. Interface TX and Comp. coil to the oscillator
 3. Design the RX coil and the relative circuit (ideally will receive only 1kHz in case of metal presence)
 
-## Design the oscillator
+### Design the oscillator
 In my bachelor's thesis i've designed a Colpitt's oscillator with a BJT but unfortunately is good for higher frequencies otherwise will need huge capacitors and inductor.
 Since simple things are attractive i choose NE555 IC used in astable configuration creating a signal at 1kHz.
 At the output there is an LC filter which enable to pass the 1kHz signal (at the end are needed a big capacitor and a big inductor as well but in a much more simpler way).
