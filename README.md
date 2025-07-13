@@ -24,3 +24,7 @@ Below the simulated circuit on LTSpice.
 
 Below the output signal which is more like a triangular wave than a sinusoid this because the -40dB/dec of the filter after the central frequency is not enough to filter out the third harmonic (for an ideal square signal the second harmonic is zero).
 ![Alt text](outSignalOscillator.png "Output oscilator signal")
+
+At the beginning i haven't tought about DC component at the output of NE555 and i know is a problem because is a waste of energy. Is needed to investigate another topology or try with another frequency ... i'm scared ive to use the mixer but it's an opportunity to learn something new. 
+
+Another thing, i think is better write a LateX file and upload the updated version every time and use the README as an index
